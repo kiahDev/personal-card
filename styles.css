@@ -78,8 +78,26 @@ body {
     font-size: 0.8rem;
 }
 
-.stats span {
-    font-size: 1rem;
+.stats a {
+    color: black;
+    text-decoration: none;
+}
+
+.stats i {
+    font-size: 1.4rem;
+    transition: 0.3s;
+}
+
+.stats a.github:hover i {
+    color: #333;
+}
+
+.stats a.instagram:hover i {
+    color: #E1306C; 
+}
+
+.stats a.facebook:hover i {
+    color: #1877F2; 
 }
 
 .btn-container {
@@ -110,5 +128,6 @@ button:hover {
 button:active {
     background-color: white;
 }
+
 
 
