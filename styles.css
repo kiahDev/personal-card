@@ -21,6 +21,16 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     padding: 8px;
     position: relative;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }
 
 .header {
@@ -46,6 +56,9 @@ body {
 .profile-picture {
     position: absolute;
     top: 100px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
 }
 
 
@@ -53,6 +66,9 @@ body {
     margin-top: 60px;
     text-align: left;
     padding: 0 20px;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 1s ease forwards;
 
 }
 
