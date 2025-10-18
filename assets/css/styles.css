@@ -21,7 +21,6 @@ body {
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
     padding: 8px;
     position: relative;
-
 }
 
 .header {
@@ -159,8 +158,8 @@ button:active {
     }
 
     .profile-picture img {
-        width: 80px;
-        height: 80px;
+        width: 90px;
+        height: 90px;
     }
 
     .details h3 {
@@ -178,7 +177,7 @@ button:active {
 
     button {
         font-size: 1rem;
-        padding: 10px;
+        padding: 15px;
     }
     
 }
@@ -190,8 +189,8 @@ button:active {
     }
 
     .profile-picture img {
-        width: 70px;
-        height: 70px;
+        width: 85px;
+        height: 85px;
     }
 
     .details h3 {
@@ -207,7 +206,7 @@ button:active {
     }
 
     button {
-        font-size: 0.8rem;
-        padding: 8px;
+        font-size: 1rem;
+        padding: 15px;
     }
 }
