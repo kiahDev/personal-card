@@ -147,66 +147,10 @@ button:active {
 }
 
 
-@media (max-width: 414px) {
-    .card {
-        width: 90%;
-        padding: 10px;
+@media (max-width: 240px) {
+
+    .stat p {
+        display: none;
     }
 
-    .profile-picture {
-        top: 110px;
-    }
-
-    .profile-picture img {
-        width: 90px;
-        height: 90px;
-    }
-
-    .details h3 {
-        font-size: 1.2rem;
-    }
-
-    .details p {
-        font-size: 0.8rem;
-        max-width: 240px;
-    }
-
-    .stats i {
-        font-size: 1.2rem;
-    }
-
-    button {
-        font-size: 1rem;
-        padding: 15px;
-    }
-    
-}
-
-@media (max-width: 375px) {
-
-    .profile-picture {
-        top: 120px;
-    }
-
-    .profile-picture img {
-        width: 85px;
-        height: 85px;
-    }
-
-    .details h3 {
-        font-size: 1.1rem;
-    }
-
-    .details p {
-        font-size: 0.75rem;
-    }
-
-    .stats i {
-        font-size: 1rem;
-    }
-
-    button {
-        font-size: 1rem;
-        padding: 15px;
-    }
 }
